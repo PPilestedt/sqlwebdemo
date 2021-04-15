@@ -49,5 +49,6 @@ public class BookController {
         bookRepo.save(new Book("karesuandukniven 2","pelle"));
         bookRepo.save(new Book("sagan om de två tokarna 2","tokien"));
         bookRepo.save(new Book("Dildo","tokien 2"));
+        return "added 10 books";
     }
 }
