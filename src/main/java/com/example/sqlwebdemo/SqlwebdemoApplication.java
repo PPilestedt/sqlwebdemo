@@ -17,11 +17,11 @@ public class SqlwebdemoApplication {
     @Bean
     public CommandLineRunner demo(BookRepository repository){
         return args -> {
-            repository.save(new Book("sagan om de bannlysta","tokien"));
-            repository.save(new Book("harekrishna","janne"));
-            repository.save(new Book("karesuandukniven","pelle"));
-            repository.save(new Book("sagan om de två tokarna","tokien"));
-            repository.save(new Book("Dildo","tokien"));
+            //repository.save(new Book("sagan om de bannlysta","tokien"));
+            //repository.save(new Book("harekrishna","janne"));
+            //repository.save(new Book("karesuandukniven","pelle"));
+            //repository.save(new Book("sagan om de två tokarna","tokien"));
+            //repository.save(new Book("Dildo","tokien"));
         };
     }
 }
